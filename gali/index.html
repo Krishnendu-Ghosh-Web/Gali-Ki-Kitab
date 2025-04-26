@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gali Ki Kitab </title>
+    <link rel="icon"
+        href="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-96ec-61f7-bbbc-1709d2fafa54/raw?se=2025-04-26T07%3A23%3A29Z&sp=r&sv=2024-08-04&sr=b&scid=293221e4-f8cd-558a-aad2-cd0ebb8cd071&skoid=ae70be19-8043-4428-a990-27c58b478304&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-25T23%3A03%3A45Z&ske=2025-04-26T23%3A03%3A45Z&sks=b&skv=2024-08-04&sig=eXbKL1JtE7xnblrFW%2BuGlaLGlPMUcwqn4bTvhkcDFxc%3D"
+        type="image/png">
+    <style>
+        :root {
+            --primary-color: #6a1b9a;
+            --secondary-color: #9c27b0;
+            --background-color: #f5f5f5;
+            --text-color: #333;
+            --border-color: #ddd;
+            --hover-color: #8e24aa;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .controls {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .search-container {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .search-container input {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        .search-container button {
+            padding: 12px 20px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .search-container button:hover {
+            background-color: var(--hover-color);
+        }
+
+        .filter-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .filter-container label {
+            font-weight: bold;
+        }
+
+        .filter-container select {
+            padding: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 0;
+            background-color: white;
+            padding: 10px 10px 0;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .tab {
+            padding: 12px 24px;
+            background-color: #e0e0e0;
+            cursor: pointer;
+            border-radius: 5px 5px 0 0;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .tab:hover {
+            background-color: #d0d0d0;
+        }
+
+        .tab.active {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .content-container {
+            background-color: white;
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .content {
+            display: none;
+            padding: 20px;
+        }
+
+        .content.active {
+            display: block;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 1.2rem;
+            color: var(--primary-color);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        .pronunciation-btn {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            transition: all 0.3s;
+        }
+
+        .pronunciation-btn:hover {
+            background-color: var(--hover-color);
+            transform: scale(1.1);
+        }
+
+        .severity {
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .mild {
+            background-color: #ffeb3b;
+            color: #333;
+        }
+
+        .moderate {
+            background-color: #ff9800;
+            color: white;
+        }
+
+        .extreme {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            font-style: italic;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .search-container {
+                flex-direction: column;
+            }
+
+            .tab {
+                padding: 10px 15px;
+                font-size: 0.9rem;
+            }
+
+            th,
+            td {
+                padding: 10px;
+            }
+
+            .filter-container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .filter-container select {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Gali Ki Kitab</h1>
+        <p>Multilingual Reference of Terms</p>
+    </header>
+
+    <div class="container">
+        <div class="controls">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for a term...">
+                <button onclick="searchTerms()">Search</button>
+            </div>
+
+            <div class="filter-container">
+                <label for="severityFilter">Filter by severity:</label>
+                <select id="severityFilter" onchange="filterBySeverity()">
+                    <option value="all">All</option>
+                    <option value="mild">Mild</option>
+                    <option value="moderate">Moderate</option>
+                    <option value="extreme">Extreme</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="tabs">
+            <div class="tab active" onclick="switchTab('hindi')">Hindi</div>
+            <div class="tab" onclick="switchTab('bengali')">Bengali</div>
+            <div class="tab" onclick="switchTab('english')">English</div>
+        </div>
+
+        <div class="content-container">
+            <div id="hindi" class="content active">
+                <div class="loading" id="hindiLoading">Loading Hindi terms...</div>
+                <table id="hindiTable" style="display: none;">
+                    <thead>
+                        <tr>
+                            <th>Hindi Term</th>
+                            <th>Bengali Equivalent</th>
+                            <th>English Equivalent</th>
+                            <th>Pronunciation</th>
+                            <th>Severity</th>
+                            <th>Context/Meaning</th>
+                        </tr>
+                    </thead>
+                    <tbody id="hindiTableBody">
+                        <!-- Content will be dynamically populated -->
+                    </tbody>
+                </table>
+                <div id="hindiNoResults" class="no-results" style="display: none;">No results found</div>
+            </div>
+
+            <div id="bengali" class="content">
+                <div class="loading" id="bengaliLoading">Loading Bengali terms...</div>
+                <table id="bengaliTable" style="display: none;">
+                    <thead>
+                        <tr>
+                            <th>Bengali Term</th>
+                            <th>Hindi Equivalent</th>
+                            <th>English Equivalent</th>
+                            <th>Pronunciation</th>
+                            <th>Severity</th>
+                            <th>Context/Meaning</th>
+                        </tr>
+                    </thead>
+                    <tbody id="bengaliTableBody">
+                        <!-- Content will be dynamically populated -->
+                    </tbody>
+                </table>
+                <div id="bengaliNoResults" class="no-results" style="display: none;">No results found</div>
+            </div>
+
+            <div id="english" class="content">
+                <div class="loading" id="englishLoading">Loading English terms...</div>
+                <table id="englishTable" style="display: none;">
+                    <thead>
+                        <tr>
+                            <th>English Term</th>
+                            <th>Hindi Equivalent</th>
+                            <th>Bengali Equivalent</th>
+                            <th>Pronunciation</th>
+                            <th>Severity</th>
+                            <th>Context/Meaning</th>
+                        </tr>
+                    </thead>
+                    <tbody id="englishTableBody">
+                        <!-- Content will be dynamically populated -->
+                    </tbody>
+                </table>
+                <div id="englishNoResults" class="no-results" style="display: none;">No results found</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global data store
+        let termsDatabase = [];
+
+        // Function to load data from JSON files
+        async function loadData() {
+            try {
+                // Load Hindi terms
+                const hindiResponse = await fetch('hindi_terms.json');
+                const hindiData = await hindiResponse.json();
+
+                // Load Bengali terms
+                const bengaliResponse = await fetch('bengali_terms.json');
+                const bengaliData = await bengaliResponse.json();
+
+                // Load English terms
+                const englishResponse = await fetch('english_terms.json');
+                const englishData = await englishResponse.json();
+
+                // Process and merge the data
+                processData(hindiData, bengaliData, englishData);
+
+            } catch (error) {
+                console.error('Error loading data:', error);
+                alert('Failed to load term data. Please check console for details.');
+
+                // For demonstration, use sample data if JSON load fails
+                useSampleData();
+            }
+        }
+
+        // Function to process data from all three JSON files
+        function processData(hindiData, bengaliData, englishData) {
+            // Assuming each JSON file has a similar structure
+            // This would need to be adjusted based on your actual JSON structure
+
+            // For Hindi-sorted data
+            const hindiTerms = hindiData.map(term => ({
+                hindi: term.term,
+                bengali: term.bengali_equivalent || "",
+                english: term.english_equivalent || "",
+                severity: term.severity || "mild",
+                context: term.context || ""
+            }));
+
+            // For Bengali-sorted data
+            const bengaliTerms = bengaliData.map(term => ({
+                bengali: term.term,
+                hindi: term.hindi_equivalent || "",
+                english: term.english_equivalent || "",
+                severity: term.severity || "mild",
+                context: term.context || ""
+            }));
+
+            // For English-sorted data
+            const englishTerms = englishData.map(term => ({
+                english: term.term,
+                hindi: term.hindi_equivalent || "",
+                bengali: term.bengali_equivalent || "",
+                severity: term.severity || "mild",
+                context: term.context || ""
+            }));
+
+            // Sort in each language's alphabetical order
+            sortTerms(hindiTerms, bengaliTerms, englishTerms);
+
+            // Populate tables
+            populateTables(hindiTerms, bengaliTerms, englishTerms);
+        }
+
+        // Function to sort terms in each language
+        function sortTerms(hindiTerms, bengaliTerms, englishTerms) {
+            // Sort Hindi terms
+            hindiTerms.sort((a, b) => a.hindi.localeCompare(b.hindi, 'hi'));
+
+            // Sort Bengali terms
+            bengaliTerms.sort((a, b) => a.bengali.localeCompare(b.bengali, 'bn'));
+
+            // Sort English terms
+            englishTerms.sort((a, b) => a.english.localeCompare(b.english, 'en'));
+
+            return { hindiTerms, bengaliTerms, englishTerms };
+        }
+
+        // Function to populate tables with sorted data
+        function populateTables(hindiTerms, bengaliTerms, englishTerms) {
+            // Populate Hindi table
+            const hindiTableBody = document.getElementById('hindiTableBody');
+            hindiTableBody.innerHTML = '';
+
+            hindiTerms.forEach(term => {
+                const row = createTableRow({
+                    term1: term.hindi,
+                    term2: term.bengali,
+                    term3: term.english,
+                    language: 'hi',
+                    severity: term.severity,
+                    context: term.context
+                });
+                hindiTableBody.appendChild(row);
+            });
+
+            // Populate Bengali table
+            const bengaliTableBody = document.getElementById('bengaliTableBody');
+            bengaliTableBody.innerHTML = '';
+
+            bengaliTerms.forEach(term => {
+                const row = createTableRow({
+                    term1: term.bengali,
+                    term2: term.hindi,
+                    term3: term.english,
+                    language: 'bn',
+                    severity: term.severity,
+                    context: term.context
+                });
+                bengaliTableBody.appendChild(row);
+            });
+
+            // Populate English table
+            const englishTableBody = document.getElementById('englishTableBody');
+            englishTableBody.innerHTML = '';
+
+            englishTerms.forEach(term => {
+                const row = createTableRow({
+                    term1: term.english,
+                    term2: term.hindi,
+                    term3: term.bengali,
+                    language: 'en',
+                    severity: term.severity,
+                    context: term.context
+                });
+                englishTableBody.appendChild(row);
+            });
+
+            // Hide loading indicators and show tables
+            document.getElementById('hindiLoading').style.display = 'none';
+            document.getElementById('bengaliLoading').style.display = 'none';
+            document.getElementById('englishLoading').style.display = 'none';
+
+            document.getElementById('hindiTable').style.display = '';
+            document.getElementById('bengaliTable').style.display = '';
+            document.getElementById('englishTable').style.display = '';
+
+            // Store for searching/filtering
+            termsDatabase = { hindiTerms, bengaliTerms, englishTerms };
+        }
+
+        // Helper function to create a table row
+        function createTableRow({ term1, term2, term3, language, severity, context }) {
+            const row = document.createElement('tr');
+
+            // Term 1 (main term for this table)
+            const term1Cell = document.createElement('td');
+            term1Cell.textContent = term1;
+            row.appendChild(term1Cell);
+
+            // Term 2 (first equivalent)
+            const term2Cell = document.createElement('td');
+            term2Cell.textContent = term2;
+            row.appendChild(term2Cell);
+
+            // Term 3 (second equivalent)
+            const term3Cell = document.createElement('td');
+            term3Cell.textContent = term3;
+            row.appendChild(term3Cell);
+
+            // Pronunciation button
+            const pronunciationCell = document.createElement('td');
+            const pronunciationBtn = document.createElement('button');
+            pronunciationBtn.className = 'pronunciation-btn';
+            pronunciationBtn.innerHTML = '🔊';
+            pronunciationBtn.onclick = () => pronounce(term1, language);
+            pronunciationCell.appendChild(pronunciationBtn);
+            row.appendChild(pronunciationCell);
+
+            // Severity
+            const severityCell = document.createElement('td');
+            const severitySpan = document.createElement('span');
+            severitySpan.className = `severity ${severity}`;
+            severitySpan.textContent = severity.charAt(0).toUpperCase() + severity.slice(1);
+            severityCell.appendChild(severitySpan);
+            row.appendChild(severityCell);
+
+            // Context/Meaning
+            const contextCell = document.createElement('td');
+            contextCell.textContent = context;
+            row.appendChild(contextCell);
+
+            return row;
+        }
+
+        // Function to switch between language tabs
+        function switchTab(tabName) {
+            // Hide all content divs
+            document.querySelectorAll('.content').forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // Remove active class from all tabs
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+
+            // Show the selected content
+            document.getElementById(tabName).classList.add('active');
+
+            // Add active class to the clicked tab
+            Array.from(document.querySelectorAll('.tab')).find(tab =>
+                tab.textContent.toLowerCase() === tabName
+            ).classList.add('active');
+        }
+
+        // Function to pronounce words using the Web Speech API
+        function pronounce(text, lang) {
+            if (!text) return;
+
+            // Language codes: 'hi' for Hindi, 'bn' for Bengali, 'en' for English
+            const speech = new SpeechSynthesisUtterance();
+            speech.text = text;
+            speech.lang = lang;
+
+            // Handle voice selection if available
+            const voices = speechSynthesis.getVoices();
+            const langVoice = voices.find(voice => voice.lang.startsWith(lang));
+            if (langVoice) {
+                speech.voice = langVoice;
+            }
+
+            window.speechSynthesis.speak(speech);
+        }
+
+        // Function to search for terms
+        function searchTerms() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+
+            if (!searchTerm) {
+                // Reset to show all if search is empty
+                resetSearch();
+                return;
+            }
+
+            // Search in Hindi table
+            searchInTable('hindiTableBody', 'hindiTable', 'hindiNoResults', searchTerm);
+
+            // Search in Bengali table
+            searchInTable('bengaliTableBody', 'bengaliTable', 'bengaliNoResults', searchTerm);
+
+            // Search in English table
+            searchInTable('englishTableBody', 'englishTable', 'englishNoResults', searchTerm);
+        }
+
+        // Helper function to search in a specific table
+        function searchInTable(tableBodyId, tableId, noResultsId, searchTerm) {
+            const tableBody = document.getElementById(tableBodyId);
+            const rows = tableBody.querySelectorAll('tr');
+            let foundResults = false;
+
+            rows.forEach(row => {
+                const textContent = row.textContent.toLowerCase();
+                if (textContent.includes(searchTerm)) {
+                    row.style.display = '';
+                    foundResults = true;
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+
+            // Show/hide no results message
+            document.getElementById(tableId).style.display = foundResults ? '' : 'none';
+            document.getElementById(noResultsId).style.display = foundResults ? 'none' : '';
+        }
+
+        // Function to reset search/filter
+        function resetSearch() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('severityFilter').value = 'all';
+
+            // Show all rows in all tables
+            ['hindiTableBody', 'bengaliTableBody', 'englishTableBody'].forEach(tableId => {
+                const rows = document.getElementById(tableId).querySelectorAll('tr');
+                rows.forEach(row => {
+                    row.style.display = '';
+                });
+            });
+
+            // Show tables, hide "no results" messages
+            document.getElementById('hindiTable').style.display = '';
+            document.getElementById('bengaliTable').style.display = '';
+            document.getElementById('englishTable').style.display = '';
+
+            document.getElementById('hindiNoResults').style.display = 'none';
+            document.getElementById('bengaliNoResults').style.display = 'none';
+            document.getElementById('englishNoResults').style.display = 'none';
+        }
+
+        // Function to filter by severity
+        function filterBySeverity() {
+            const severity = document.getElementById('severityFilter').value;
+
+            if (severity === 'all') {
+                // If "all" selected, just clear any other filters
+                const searchTerm = document.getElementById('searchInput').value;
+                if (searchTerm) {
+                    searchTerms(); // Maintain any search filters
+                } else {
+                    resetSearch(); // Clear all filters
+                }
+                return;
+            }
+
+            // Filter in each table
+            filterTableBySeverity('hindiTableBody', 'hindiTable', 'hindiNoResults', severity);
+            filterTableBySeverity('bengaliTableBody', 'bengaliTable', 'bengaliNoResults', severity);
+            filterTableBySeverity('englishTableBody', 'englishTable', 'englishNoResults', severity);
+        }
+
+        // Helper function to filter a table by severity
+        function filterTableBySeverity(tableBodyId, tableId, noResultsId, severity) {
+            const tableBody = document.getElementById(tableBodyId);
+            const rows = tableBody.querySelectorAll('tr');
+            let foundResults = false;
+
+            rows.forEach(row => {
+                const severitySpan = row.querySelector('.severity');
+                if (severitySpan && severitySpan.classList.contains(severity)) {
+                    row.style.display = '';
+                    foundResults = true;
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+
+            // Show/hide no results message
+            document.getElementById(tableId).style.display = foundResults ? '' : 'none';
+            document.getElementById(noResultsId).style.display = foundResults ? 'none' : '';
+        }
+
+        // Sample data for testing (will be used if JSON loading fails)
+        function useSampleData() {
+            const sampleData = [
+                {
+                    hindi: "Example Hindi Term 1",
+                    bengali: "Example Bengali Term 1",
+                    english: "Example English Term 1",
+                    severity: "mild",
+                    context: "This is an example term for demonstration purposes."
+                },
+                {
+                    hindi: "Example Hindi Term 2",
+                    bengali: "Example Bengali Term 2",
+                    english: "Example English Term 2",
+                    severity: "moderate",
+                    context: "Another example term to show how filtering works."
+                },
+                {
+                    hindi: "Example Hindi Term 3",
+                    bengali: "Example Bengali Term 3",
+                    english: "Example English Term 3",
+                    severity: "extreme",
+                    context: "A third example for demonstration."
+                }
+            ];
+
+            const hindiSorted = [...sampleData].sort((a, b) => a.hindi.localeCompare(b.hindi, 'hi'));
+            const bengaliSorted = [...sampleData].sort((a, b) => a.bengali.localeCompare(b.bengali, 'bn'));
+            const englishSorted = [...sampleData].sort((a, b) => a.english.localeCompare(b.english, 'en'));
+
+            populateTables(hindiSorted, bengaliSorted, englishSorted);
+        }
+
+        // Function to preload voices for speech synthesis
+        function preloadVoices() {
+            // This will trigger voices to load
+            speechSynthesis.getVoices();
+
+            // Chrome needs a little help - this event fires when voices are actually available
+            if ('onvoiceschanged' in speechSynthesis) {
+                speechSynthesis.onvoiceschanged = function () {
+                    // Voices are now loaded
+                };
+            }
+        }
+
+        // Initialize the application
+        window.onload = function () {
+            loadData();
+            preloadVoices();
+        };
+    </script>
+</body>
+
+</html>

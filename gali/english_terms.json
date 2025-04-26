@@ -1,0 +1,828 @@
+[
+  {
+    "term": "aand",
+    "hindi_equivalent": "आंड",
+    "bengali_equivalent": "আন্ড",
+    "severity": "high",
+    "context": "Vulgar term referring to testicles."
+  },
+  {
+    "term": "aandu",
+    "hindi_equivalent": "आंडू",
+    "bengali_equivalent": "আন্ডু",
+    "severity": "high",
+    "context": "Derogatory term related to testicles."
+  },
+  {
+    "term": "balatkar",
+    "hindi_equivalent": "बलात्कार",
+    "bengali_equivalent": "ধর্ষণ",
+    "severity": "extreme",
+    "context": "Refers to rape; highly offensive."
+  },
+  {
+    "term": "balatkari",
+    "hindi_equivalent": "बलात्कारी",
+    "bengali_equivalent": "ধর্ষক",
+    "severity": "extreme",
+    "context": "Means rapist; extremely offensive."
+  },
+  {
+    "term": "behen chod",
+    "hindi_equivalent": "बहन चोद",
+    "bengali_equivalent": "বোন চোদ",
+    "severity": "extreme",
+    "context": "Offensive abuse implying incest with one's sister."
+  },
+  {
+    "term": "beti chod",
+    "hindi_equivalent": "बेटी चोद",
+    "bengali_equivalent": "মেয়ে চোদ",
+    "severity": "extreme",
+    "context": "Extremely offensive term implying abuse of one's daughter."
+  },
+  {
+    "term": "bhadva",
+    "hindi_equivalent": "भड़वा",
+    "bengali_equivalent": "ভাড়াটে",
+    "severity": "high",
+    "context": "Derogatory term for a pimp."
+  },
+  {
+    "term": "bhadve",
+    "hindi_equivalent": "भड़वे",
+    "bengali_equivalent": "ভাড়াটে",
+    "severity": "high",
+    "context": "Vulgar term for a pimp or someone despicable."
+  },
+  {
+    "term": "bhandve",
+    "hindi_equivalent": "भांडवे",
+    "bengali_equivalent": "ভাঁড়",
+    "severity": "high",
+    "context": "Insult implying someone is a clown or fool."
+  },
+  {
+    "term": "bhangi",
+    "hindi_equivalent": "भंगी",
+    "bengali_equivalent": "ভাঙ্গি",
+    "severity": "high",
+    "context": "Casteist slur; extremely offensive."
+  },
+  {
+    "term": "bhootni ke",
+    "hindi_equivalent": "भूतनी के",
+    "bengali_equivalent": "ভূতনের",
+    "severity": "high",
+    "context": "Curse invoking a female ghost; vulgar."
+  },
+  {
+    "term": "bhosad",
+    "hindi_equivalent": "भोसड़",
+    "bengali_equivalent": "ভোসাড়",
+    "severity": "high",
+    "context": "Vulgar term for female genitalia or nonsense."
+  },
+  {
+    "term": "bhosadi ke",
+    "hindi_equivalent": "भोसड़ी के",
+    "bengali_equivalent": "ভোসাড়ির",
+    "severity": "extreme",
+    "context": "Highly offensive abuse related to female genitalia."
+  },
+  {
+    "term": "boobe",
+    "hindi_equivalent": "बूब",
+    "bengali_equivalent": "বুব",
+    "severity": "moderate",
+    "context": "Slang for breasts; vulgar but context-dependent."
+  },
+  {
+    "term": "chakke",
+    "hindi_equivalent": "चक्के",
+    "bengali_equivalent": "চাক্কে",
+    "severity": "high",
+    "context": "Derogatory term for transgender individuals; offensive."
+  },
+  {
+    "term": "chinaal",
+    "hindi_equivalent": "चिनाल",
+    "bengali_equivalent": "চিনাল",
+    "severity": "extreme",
+    "context": "Extremely offensive term for a promiscuous woman."
+  },
+  {
+    "term": "chinki",
+    "hindi_equivalent": "चिंकी",
+    "bengali_equivalent": "চিংকি",
+    "severity": "high",
+    "context": "Racial slur for people of East Asian descent."
+  },
+  {
+    "term": "chod",
+    "hindi_equivalent": "चोद",
+    "bengali_equivalent": "চোদ",
+    "severity": "extreme",
+    "context": "Vulgar term for sexual intercourse; highly offensive."
+  },
+  {
+    "term": "chodu",
+    "hindi_equivalent": "चोदू",
+    "bengali_equivalent": "চোদু",
+    "severity": "extreme",
+    "context": "Derogatory term implying someone is a fool or is being abused."
+  },
+  {
+    "term": "chodu bhagat",
+    "hindi_equivalent": "चोदू भगत",
+    "bengali_equivalent": "চোদু ভগত",
+    "severity": "extreme",
+    "context": "Combination of 'chodu' and 'bhagat'; highly offensive."
+  },
+  {
+    "term": "chooche",
+    "hindi_equivalent": "चूचे",
+    "bengali_equivalent": "চুচে",
+    "severity": "moderate",
+    "context": "Slang for breasts; vulgar but context-dependent."
+  },
+  {
+    "term": "choochi",
+    "hindi_equivalent": "चूची",
+    "bengali_equivalent": "চুচি",
+    "severity": "moderate",
+    "context": "Childish/vulgar term for female genitalia."
+  },
+  {
+    "term": "choope",
+    "hindi_equivalent": "चूपे",
+    "bengali_equivalent": "চুপে",
+    "severity": "moderate",
+    "context": "Vulgar term for lips or kissing."
+  },
+  {
+    "term": "choot",
+    "hindi_equivalent": "चूत",
+    "bengali_equivalent": "চুত",
+    "severity": "extreme",
+    "context": "Extremely offensive term for female genitalia."
+  },
+  {
+    "term": "choot ke baal",
+    "hindi_equivalent": "चूत के बाल",
+    "bengali_equivalent": "চুতের বাল",
+    "severity": "extreme",
+    "context": "Highly offensive reference to pubic hair."
+  },
+  {
+    "term": "chootia",
+    "hindi_equivalent": "चूतिया",
+    "bengali_equivalent": "চুতিয়া",
+    "severity": "extreme",
+    "context": "Derogatory term for an idiot or fool."
+  },
+  {
+    "term": "chootiya",
+    "hindi_equivalent": "चूतिया",
+    "bengali_equivalent": "চুতিয়া",
+    "severity": "extreme",
+    "context": "Variant of 'chootia'; extremely offensive."
+  },
+  {
+    "term": "chuchi",
+    "hindi_equivalent": "चूची",
+    "bengali_equivalent": "চুচি",
+    "severity": "moderate",
+    "context": "Slang for breasts; vulgar but context-dependent."
+  },
+  {
+    "term": "chudaap",
+    "hindi_equivalent": "चुदाप",
+    "bengali_equivalent": "চুদাপ",
+    "severity": "extreme",
+    "context": "Vulgar term implying excessive sexual activity."
+  },
+  {
+    "term": "chudai khanaa",
+    "hindi_equivalent": "चुदाई खाना",
+    "bengali_equivalent": "চুদাই খানা",
+    "severity": "extreme",
+    "context": "Highly offensive term for a brothel."
+  },
+  {
+    "term": "chudam chudai",
+    "hindi_equivalent": "चुदाम चुदाई",
+    "bengali_equivalent": "চুদাম চুদাই",
+    "severity": "extreme",
+    "context": "Graphic vulgar phrase related to sexual intercourse."
+  },
+  {
+    "term": "chude",
+    "hindi_equivalent": "चुदे",
+    "bengali_equivalent": "চুদে",
+    "severity": "extreme",
+    "context": "Vulgar past tense of 'chod'; highly offensive."
+  },
+  {
+    "term": "chut",
+    "hindi_equivalent": "चुत",
+    "bengali_equivalent": "চুত",
+    "severity": "extreme",
+    "context": "Extremely offensive term for female genitalia."
+  },
+  {
+    "term": "chut ka chuha",
+    "hindi_equivalent": "चुत का चूहा",
+    "bengali_equivalent": "চুতের ইঁদুর",
+    "severity": "extreme",
+    "context": "Highly offensive phrase implying someone is despicable."
+  },
+  {
+    "term": "chut ka churan",
+    "hindi_equivalent": "चुत का चूरन",
+    "bengali_equivalent": "চুতের চূর্ণ",
+    "severity": "extreme",
+    "context": "Extremely vulgar phrase referencing female genitalia."
+  },
+  {
+    "term": "chut ka mail",
+    "hindi_equivalent": "चुत का मैल",
+    "bengali_equivalent": "চুতের ময়লা",
+    "severity": "extreme",
+    "context": "Highly offensive phrase implying filth."
+  },
+  {
+    "term": "chut ke baal",
+    "hindi_equivalent": "चुत के बाल",
+    "bengali_equivalent": "চুতের বাল",
+    "severity": "extreme",
+    "context": "Extremely vulgar reference to pubic hair."
+  },
+  {
+    "term": "chut ke dhakkan",
+    "hindi_equivalent": "चुत के ढक्कन",
+    "bengali_equivalent": "চুতের ঢাকনা",
+    "severity": "extreme",
+    "context": "Highly offensive phrase referencing female genitalia."
+  },
+  {
+    "term": "chut maarli",
+    "hindi_equivalent": "चुत मारली",
+    "bengali_equivalent": "চুত মারলি",
+    "severity": "extreme",
+    "context": "Graphic vulgar phrase related to sexual intercourse."
+  },
+  {
+    "term": "chutad",
+    "hindi_equivalent": "चुतड़",
+    "bengali_equivalent": "চুতড়",
+    "severity": "high",
+    "context": "Vulgar term for buttocks."
+  },
+  {
+    "term": "chutadd",
+    "hindi_equivalent": "चुतड़",
+    "bengali_equivalent": "চুতড়",
+    "severity": "high",
+    "context": "Variant of 'chutad'; vulgar term for buttocks."
+  },
+  {
+    "term": "chutan",
+    "hindi_equivalent": "चुतन",
+    "bengali_equivalent": "চুতন",
+    "severity": "high",
+    "context": "Derogatory term related to female genitalia."
+  },
+  {
+    "term": "chutia",
+    "hindi_equivalent": "चुतिया",
+    "bengali_equivalent": "চুতিয়া",
+    "severity": "extreme",
+    "context": "Extremely offensive term for an idiot or fool."
+  },
+  {
+    "term": "chutiya",
+    "hindi_equivalent": "चुतिया",
+    "bengali_equivalent": "চুতিয়া",
+    "severity": "extreme",
+    "context": "Variant of 'chutia'; highly offensive."
+  },
+  {
+    "term": "gaand",
+    "hindi_equivalent": "गांड",
+    "bengali_equivalent": "গাঁড",
+    "severity": "high",
+    "context": "Vulgar term for buttocks."
+  },
+  {
+    "term": "gaandfat",
+    "hindi_equivalent": "गांडफट",
+    "bengali_equivalent": "গাঁডফাট",
+    "severity": "high",
+    "context": "Derogatory term implying someone is a nuisance."
+  },
+  {
+    "term": "gaandmasti",
+    "hindi_equivalent": "गांडमस्ती",
+    "bengali_equivalent": "গাঁডমস্তি",
+    "severity": "high",
+    "context": "Vulgar term for reckless behavior."
+  },
+  {
+    "term": "gaandufad",
+    "hindi_equivalent": "गांडूफाड़",
+    "bengali_equivalent": "গাঁডুফাড়",
+    "severity": "extreme",
+    "context": "Graphic vulgar phrase implying extreme violence."
+  },
+  {
+    "term": "gandfattu",
+    "hindi_equivalent": "गांडफट्टू",
+    "bengali_equivalent": "গাঁডফট্টু",
+    "severity": "high",
+    "context": "Derogatory term for a coward."
+  },
+  {
+    "term": "gandu",
+    "hindi_equivalent": "गांडू",
+    "bengali_equivalent": "গাঁডু",
+    "severity": "extreme",
+    "context": "Highly offensive term implying someone is submissive or despicable."
+  },
+  {
+    "term": "gashti",
+    "hindi_equivalent": "गश्ती",
+    "bengali_equivalent": "গশতি",
+    "severity": "high",
+    "context": "Derogatory term for a promiscuous woman."
+  },
+  {
+    "term": "gasti",
+    "hindi_equivalent": "गस्ती",
+    "bengali_equivalent": "গস্তি",
+    "severity": "high",
+    "context": "Variant of 'gashti'; offensive term for a promiscuous woman."
+  },
+  {
+    "term": "ghassa",
+    "hindi_equivalent": "घस्सा",
+    "bengali_equivalent": "ঘসা",
+    "severity": "high",
+    "context": "Vulgar term for grinding or friction; context-dependent."
+  },
+  {
+    "term": "ghasti",
+    "hindi_equivalent": "घस्ती",
+    "bengali_equivalent": "ঘস্তি",
+    "severity": "high",
+    "context": "Variant of 'gashti'; derogatory term for a promiscuous woman."
+  },
+  {
+    "term": "gucchi",
+    "hindi_equivalent": "गुच्ची",
+    "bengali_equivalent": "গুচ্চি",
+    "severity": "moderate",
+    "context": "Slang for female genitalia; vulgar but context-dependent."
+  },
+  {
+    "term": "gucchu",
+    "hindi_equivalent": "गुच्चु",
+    "bengali_equivalent": "গুচ্চু",
+    "severity": "moderate",
+    "context": "Childish/vulgar term for female genitalia."
+  },
+  {
+    "term": "harami",
+    "hindi_equivalent": "हरामी",
+    "bengali_equivalent": "হারামি",
+    "severity": "high",
+    "context": "Derogatory term for someone illegitimate or deceitful."
+  },
+  {
+    "term": "haramzade",
+    "hindi_equivalent": "हरामज़ादे",
+    "bengali_equivalent": "হারামজাদে",
+    "severity": "high",
+    "context": "Offensive term implying someone is illegitimate."
+  },
+  {
+    "term": "hawas",
+    "hindi_equivalent": "हवस",
+    "bengali_equivalent": "হাওয়াস",
+    "severity": "moderate",
+    "context": "Refers to lust; vulgar in certain contexts."
+  },
+  {
+    "term": "hawas ke pujari",
+    "hindi_equivalent": "हवस के पुजारी",
+    "bengali_equivalent": "হাওয়াসের পুজারি",
+    "severity": "high",
+    "context": "Derogatory term for someone obsessed with lust."
+  },
+  {
+    "term": "hijda",
+    "hindi_equivalent": "हिजड़ा",
+    "bengali_equivalent": "হিজড়া",
+    "severity": "high",
+    "context": "Derogatory term for transgender individuals; offensive."
+  },
+  {
+    "term": "hijra",
+    "hindi_equivalent": "हिजड़ा",
+    "bengali_equivalent": "হিজড়া",
+    "severity": "high",
+    "context": "Variant of 'hijda'; offensive term for transgender individuals."
+  },
+  {
+    "term": "jhant",
+    "hindi_equivalent": "झांट",
+    "bengali_equivalent": "ঝাঁট",
+    "severity": "high",
+    "context": "Vulgar term for pubic hair."
+  },
+  {
+    "term": "jhant chaatu",
+    "hindi_equivalent": "झांट चाटु",
+    "bengali_equivalent": "ঝাঁট চাটু",
+    "severity": "extreme",
+    "context": "Extremely offensive phrase referencing oral sex."
+  },
+  {
+    "term": "jhant ka keeda",
+    "hindi_equivalent": "झांट का कीड़ा",
+    "bengali_equivalent": "ঝাঁটের পোকা",
+    "severity": "extreme",
+    "context": "Highly offensive phrase implying someone is insignificant."
+  },
+  {
+    "term": "jhant ke baal",
+    "hindi_equivalent": "झांट के बाल",
+    "bengali_equivalent": "ঝাঁটের বাল",
+    "severity": "extreme",
+    "context": "Extremely vulgar reference to pubic hair."
+  },
+  {
+    "term": "jhant ke pissu",
+    "hindi_equivalent": "झांट के पिस्सू",
+    "bengali_equivalent": "ঝাঁটের পোকা",
+    "severity": "extreme",
+    "context": "Highly offensive phrase implying someone is parasitic."
+  },
+  {
+    "term": "jhantu",
+    "hindi_equivalent": "झांटू",
+    "bengali_equivalent": "ঝাঁটু",
+    "severity": "high",
+    "context": "Derogatory term for someone foolish or annoying."
+  },
+  {
+    "term": "kamine",
+    "hindi_equivalent": "कमीने",
+    "bengali_equivalent": "কামিনে",
+    "severity": "high",
+    "context": "Offensive term for someone deceitful or vile."
+  },
+  {
+    "term": "kaminey",
+    "hindi_equivalent": "कमीने",
+    "bengali_equivalent": "কামিনে",
+    "severity": "high",
+    "context": "Variant of 'kamine'; derogatory term for someone vile."
+  },
+  {
+    "term": "kanjar",
+    "hindi_equivalent": "कंजर",
+    "bengali_equivalent": "কান্জার",
+    "severity": "high",
+    "context": "Derogatory term for a pimp or someone despicable."
+  },
+  {
+    "term": "kutta",
+    "hindi_equivalent": "कुत्ता",
+    "bengali_equivalent": "কুত্তা",
+    "severity": "high",
+    "context": "Offensive term comparing someone to a dog."
+  },
+  {
+    "term": "kutta kamina",
+    "hindi_equivalent": "कुत्ता कमीना",
+    "bengali_equivalent": "কুত্তা কামিনা",
+    "severity": "high",
+    "context": "Combination of 'kutta' and 'kamine'; highly offensive."
+  },
+  {
+    "term": "kutte ki aulad",
+    "hindi_equivalent": "कुत्ते की औलाद",
+    "bengali_equivalent": "কুত্তার বাচ্চা",
+    "severity": "extreme",
+    "context": "Extremely offensive phrase implying someone is a dog's offspring."
+  },
+  {
+    "term": "kutte ki jat",
+    "hindi_equivalent": "कुत्ते की जात",
+    "bengali_equivalent": "কুত্তার জাত",
+    "severity": "extreme",
+    "context": "Highly offensive casteist slur."
+  },
+  {
+    "term": "kuttiya",
+    "hindi_equivalent": "कुतिया",
+    "bengali_equivalent": "কুত্তি",
+    "severity": "high",
+    "context": "Offensive term comparing a woman to a female dog."
+  },
+  {
+    "term": "loda",
+    "hindi_equivalent": "लोडा",
+    "bengali_equivalent": "লোডা",
+    "severity": "extreme",
+    "context": "Vulgar term for male genitalia."
+  },
+  {
+    "term": "lodu",
+    "hindi_equivalent": "लोडू",
+    "bengali_equivalent": "লোডু",
+    "severity": "extreme",
+    "context": "Derogatory term for an idiot or fool."
+  },
+  {
+    "term": "lund",
+    "hindi_equivalent": "लंड",
+    "bengali_equivalent": "লুন্ড",
+    "severity": "extreme",
+    "context": "Extremely vulgar term for male genitalia."
+  },
+  {
+    "term": "lund choos",
+    "hindi_equivalent": "लंड चूस",
+    "bengali_equivalent": "লুন্ড চুস",
+    "severity": "extreme",
+    "context": "Highly offensive phrase referencing oral sex."
+  },
+  {
+    "term": "lund ka bakkal",
+    "hindi_equivalent": "लंड का बक्कल",
+    "bengali_equivalent": "লুন্ডের দোকান",
+    "severity": "extreme",
+    "context": "Extremely vulgar phrase implying someone is a 'shopkeeper of genitals'."
+  },
+  {
+    "term": "lund khajoor",
+    "hindi_equivalent": "लंड खजूर",
+    "bengali_equivalent": "লুন্ড খেজুর",
+    "severity": "extreme",
+    "context": "Highly offensive phrase comparing male genitalia to a date fruit."
+  },
+  {
+    "term": "lundtopi",
+    "hindi_equivalent": "लंडटोपी",
+    "bengali_equivalent": "লুন্ডটুপি",
+    "severity": "extreme",
+    "context": "Vulgar term implying a 'penis hat'; highly offensive."
+  },
+  {
+    "term": "lundure",
+    "hindi_equivalent": "लंडूरे",
+    "bengali_equivalent": "লুন্ডুরে",
+    "severity": "extreme",
+    "context": "Derogatory term for someone obsessed with male genitalia."
+  },
+  {
+    "term": "maa ki chut",
+    "hindi_equivalent": "माँ की चूत",
+    "bengali_equivalent": "মার চুত",
+    "severity": "extreme",
+    "context": "Extremely offensive abuse referencing one's mother's genitalia."
+  },
+  {
+    "term": "maal",
+    "hindi_equivalent": "माल",
+    "bengali_equivalent": "মাল",
+    "severity": "high",
+    "context": "Objectifying term for a woman; vulgar."
+  },
+  {
+    "term": "madar chod",
+    "hindi_equivalent": "मादर चोद",
+    "bengali_equivalent": "মাদার চোদ",
+    "severity": "extreme",
+    "context": "Highly offensive abuse implying incest with one's mother."
+  },
+  {
+    "term": "madarchod",
+    "hindi_equivalent": "मादरचोद",
+    "bengali_equivalent": "মাদারচোদ",
+    "severity": "extreme",
+    "context": "Extremely offensive term for someone who commits incest with their mother."
+  },
+  {
+    "term": "madhavchod",
+    "hindi_equivalent": "माधवचोद",
+    "bengali_equivalent": "মাধবচোদ",
+    "severity": "extreme",
+    "context": "Variant of 'madarchod'; highly offensive."
+  },
+  {
+    "term": "mooh mein le",
+    "hindi_equivalent": "मूह में ले",
+    "bengali_equivalent": "মুখে নে",
+    "severity": "extreme",
+    "context": "Highly offensive phrase implying oral sex."
+  },
+  {
+    "term": "mutth",
+    "hindi_equivalent": "मुट्ठ",
+    "bengali_equivalent": "মুট্থ",
+    "severity": "high",
+    "context": "Vulgar term for semen or masturbation."
+  },
+  {
+    "term": "mutthal",
+    "hindi_equivalent": "मुट्ठल",
+    "bengali_equivalent": "মুট্ঠল",
+    "severity": "high",
+    "context": "Derogatory term for someone who masturbates excessively."
+  },
+  {
+    "term": "najayaz",
+    "hindi_equivalent": "नाजायज़",
+    "bengali_equivalent": "নাজায়েজ",
+    "severity": "high",
+    "context": "Offensive term implying someone is illegitimate."
+  },
+  {
+    "term": "najayaz aulaad",
+    "hindi_equivalent": "नाजायज़ औलाद",
+    "bengali_equivalent": "নাজায়েজ বাচ্চা",
+    "severity": "high",
+    "context": "Derogatory term for an illegitimate child."
+  },
+  {
+    "term": "najayaz paidaish",
+    "hindi_equivalent": "नाजायज़ पैदाइश",
+    "bengali_equivalent": "নাজায়েজ পয়দাইশ",
+    "severity": "high",
+    "context": "Offensive term for an illegitimate birth."
+  },
+  {
+    "term": "paki",
+    "hindi_equivalent": "पाकी",
+    "bengali_equivalent": "পাকি",
+    "severity": "high",
+    "context": "Racial slur for people of Pakistani origin; offensive."
+  },
+  {
+    "term": "pataka",
+    "hindi_equivalent": "पटाका",
+    "bengali_equivalent": "পটাকা",
+    "severity": "moderate",
+    "context": "Slang for an attractive woman; objectifying."
+  },
+  {
+    "term": "patakha",
+    "hindi_equivalent": "पटाखा",
+    "bengali_equivalent": "পটাখা",
+    "severity": "moderate",
+    "context": "Variant of 'pataka'; slang for an attractive woman."
+  },
+  {
+    "term": "raand",
+    "hindi_equivalent": "रांड",
+    "bengali_equivalent": "রাঁড",
+    "severity": "extreme",
+    "context": "Extremely offensive term for a promiscuous woman."
+  },
+  {
+    "term": "randaap",
+    "hindi_equivalent": "रंडाप",
+    "bengali_equivalent": "রন্ডাপ",
+    "severity": "extreme",
+    "context": "Highly offensive term for promiscuity or chaos."
+  },
+  {
+    "term": "randi",
+    "hindi_equivalent": "रंडी",
+    "bengali_equivalent": "রন্ডি",
+    "severity": "extreme",
+    "context": "Extremely offensive term for a sex worker."
+  },
+  {
+    "term": "randi rona",
+    "hindi_equivalent": "रंडी रोना",
+    "bengali_equivalent": "রন্ডি কান্না",
+    "severity": "high",
+    "context": "Derogatory phrase implying excessive complaining."
+  },
+  {
+    "term": "saala",
+    "hindi_equivalent": "साला",
+    "bengali_equivalent": "সালা",
+    "severity": "high",
+    "context": "Offensive term for one's brother-in-law; often used as a general abuse."
+  },
+  {
+    "term": "saala kutta",
+    "hindi_equivalent": "साला कुत्ता",
+    "bengali_equivalent": "সালা কুত্তা",
+    "severity": "high",
+    "context": "Combination of 'saala' and 'kutta'; highly offensive."
+  },
+  {
+    "term": "saali kutti",
+    "hindi_equivalent": "साली कुतिया",
+    "bengali_equivalent": "সালি কুত্তি",
+    "severity": "high",
+    "context": "Offensive term for one's sister-in-law; comparing her to a female dog."
+  },
+  {
+    "term": "saali randi",
+    "hindi_equivalent": "साली रंडी",
+    "bengali_equivalent": "সালি রন্ডি",
+    "severity": "extreme",
+    "context": "Extremely offensive term for one's sister-in-law."
+  },
+  {
+    "term": "suar",
+    "hindi_equivalent": "सुअर",
+    "bengali_equivalent": "সুয়ার",
+    "severity": "high",
+    "context": "Offensive term comparing someone to a pig."
+  },
+  {
+    "term": "suar ke lund",
+    "hindi_equivalent": "सुअर के लंड",
+    "bengali_equivalent": "সুয়ারের লুন্ড",
+    "severity": "extreme",
+    "context": "Extremely offensive phrase referencing a pig's genitalia."
+  },
+  {
+    "term": "suar ki aulad",
+    "hindi_equivalent": "सुअर की औलाद",
+    "bengali_equivalent": "সুয়ারের বাচ্চা",
+    "severity": "extreme",
+    "context": "Highly offensive phrase implying someone is a pig's offspring."
+  },
+  {
+    "term": "tatte",
+    "hindi_equivalent": "टट्टे",
+    "bengali_equivalent": "টট্টে",
+    "severity": "high",
+    "context": "Vulgar term for testicles."
+  },
+  {
+    "term": "tatti",
+    "hindi_equivalent": "टट्टी",
+    "bengali_equivalent": "টট্টি",
+    "severity": "high",
+    "context": "Vulgar term for feces."
+  },
+  {
+    "term": "teri maa ka bhosada",
+    "hindi_equivalent": "तेरी माँ का भोसड़ा",
+    "bengali_equivalent": "তোর মার ভোসাড়া",
+    "severity": "extreme",
+    "context": "Extremely offensive abuse referencing one's mother's genitalia."
+  },
+  {
+    "term": "teri maa ka boba chusu",
+    "hindi_equivalent": "तेरी माँ का बोबा चूसू",
+    "bengali_equivalent": "তোর মার বোবা চুসু",
+    "severity": "extreme",
+    "context": "Highly offensive phrase referencing oral sex with one's mother."
+  },
+  {
+    "term": "teri maa ki behenchod",
+    "hindi_equivalent": "तेरी माँ की बहनचोद",
+    "bengali_equivalent": "তোর মার বোনচোদ",
+    "severity": "extreme",
+    "context": "Extremely offensive abuse implying incest with one's mother and aunt."
+  },
+  {
+    "term": "teri maa ki chut",
+    "hindi_equivalent": "तेरी माँ की चूत",
+    "bengali_equivalent": "তোর মার চুত",
+    "severity": "extreme",
+    "context": "Extremely offensive abuse referencing one's mother's genitalia."
+  },
+  {
+    "term": "tharak",
+    "hindi_equivalent": "थरक",
+    "bengali_equivalent": "থরক",
+    "severity": "moderate",
+    "context": "Refers to lust; vulgar in certain contexts."
+  },
+  {
+    "term": "tharki",
+    "hindi_equivalent": "ठरकी",
+    "bengali_equivalent": "ঠরকি",
+    "severity": "high",
+    "context": "Derogatory term for someone lustful."
+  },
+  {
+    "term": "tu chuda",
+    "hindi_equivalent": "तू चुदा",
+    "bengali_equivalent": "তুই চুদা",
+    "severity": "extreme",
+    "context": "Extremely offensive phrase telling someone to get fucked."
+  }
+]
